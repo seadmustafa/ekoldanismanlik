@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Türkiye'de Yabancılar İçin Kolay Çalışma İzni",
+    "subtitle": "Çalışma izni sürecinizin her adımında uzman rehberlik ve tam destek",
+    "cta": "Başlayın",
+    "ctaSecondary": "Daha Fazla Bilgi"
+  },
+  "features": {
+    "title": "Neden Bizi Seçmelisiniz",
+    "expert": {
+      "title": "Uzman Rehberlik",
+      "description": "Türk göç hukuku ve çalışma izni prosedürlerinde yılların deneyimi"
+    },
+    "fast": {
+      "title": "Hızlı İşlem",
+      "description": "Minimum bürokrasi ile kolaylaştırılmış başvuru süreci"
+    },
+    "support": {
+      "title": "Tam Destek",
+      "description": "Başvurudan onaya kadar kapsamlı yardım"
+    },
+    "transparent": {
+      "title": "Şeffaf Fiyatlandırma",
+      "description": "Gizli ücret olmayan, net ve açık fiyatlandırma"
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "İhtiyaçlarınıza özel kapsamlı çalışma izni çözümleri",
+    "application": {
+      "title": "Çalışma İzni Başvurusu",
+      "description": "Yabancı vatandaşlar için yeni çalışma izni başvurularında tam yardım"
+    },
+    "renewal": {
+      "title": "İzin Yenileme ve Uzatma",
+      "description": "Mevcut çalışma izinleri için sorunsuz yenileme ve uzatma hizmetleri"
+    },
+    "consultation": {
+      "title": "Hukuki Danışmanlık",
+      "description": "Türkiye'de göç ve iş hukuku konularında uzman tavsiyeleri"
+    },
+    "appeals": {
+      "title": "İtiraz ve Yeniden Başvuru",
+      "description": "Reddedilen başvurular ve yeniden başvuru süreçleri için destek"
+    },
+    "tracking": {
+      "title": "Durum Takibi",
+      "description": "Başvuru durumunuz hakkında anlık güncellemeler"
+    },
+    "investor": {
+      "title": "Yatırımcı Çalışma İzinleri",
+      "description": "Şirket ortakları ve yatırımcılar için özel hizmetler"
+    },
+    "cta": "Danışmanlık Talep Edin"
+  },
+  "about": {
+    "title": "Biz Kimiz",
+    "subtitle": "Türkiye'de çalışma izinleri için güvenilir ortağınız",
+    "description": "Türk göç hukukunda yıllarca deneyime sahip ekibimiz, Türkiye'de çalışma izni arayan yabancı profesyonellere uzman rehberlik ve kapsamlı destek sunmaktadır. Ekibimiz, başvurudan onaya kadar sorunsuz ve verimli bir süreç sağlar.",
+    "stats": {
+      "experience": "10+ Yıl Deneyim",
+      "clients": "500+ Mutlu Müşteri",
+      "success": "%95 Başarı Oranı"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Danışmanlık için bizimle iletişime geçin",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "message": "Mesaj",
+      "submit": "Mesaj Gönder"
+    },
+    "info": {
+      "address": "Ataşehir, İstanbul, Türkiye",
+      "phone": "+90 505 438 3837",
+      "email": "info@workpermitturkey.com"
+    }
+  },
+  "footer": {
+    "description": "Türkiye'de yabancı vatandaşlar için profesyonel çalışma izni hizmetleri",
+    "rights": "Tüm hakları saklıdır",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları"
+  }
+}

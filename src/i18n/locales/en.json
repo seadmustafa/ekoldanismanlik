@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Work Permits Made Easy for Foreign Professionals in Turkey",
+    "subtitle": "Expert guidance and full support through every step of your work permit process",
+    "cta": "Get Started",
+    "ctaSecondary": "Learn More"
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "expert": {
+      "title": "Expert Guidance",
+      "description": "Years of experience in Turkish immigration law and work permit procedures"
+    },
+    "fast": {
+      "title": "Fast Processing",
+      "description": "Streamlined application process with minimal bureaucracy"
+    },
+    "support": {
+      "title": "Full Support",
+      "description": "Comprehensive assistance from application to approval"
+    },
+    "transparent": {
+      "title": "Transparent Pricing",
+      "description": "Clear, upfront pricing with no hidden fees"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive work permit solutions tailored to your needs",
+    "application": {
+      "title": "Work Permit Application",
+      "description": "Complete assistance with new work permit applications for foreign nationals"
+    },
+    "renewal": {
+      "title": "Permit Renewal & Extension",
+      "description": "Seamless renewal and extension services for existing work permits"
+    },
+    "consultation": {
+      "title": "Legal Consultation",
+      "description": "Expert advice on immigration and labor law matters in Turkey"
+    },
+    "appeals": {
+      "title": "Appeals & Reapplication",
+      "description": "Support for denied applications and reapplication processes"
+    },
+    "tracking": {
+      "title": "Status Tracking",
+      "description": "Real-time updates on your application status"
+    },
+    "investor": {
+      "title": "Investor Work Permits",
+      "description": "Specialized services for company partners and investors"
+    },
+    "cta": "Request Consultation"
+  },
+  "about": {
+    "title": "Who We Are",
+    "subtitle": "Your trusted partner for work permits in Turkey",
+    "description": "With years of experience in Turkish immigration law, we provide expert guidance and comprehensive support for foreign professionals seeking work permits in Turkey. Our team ensures a smooth, efficient process from application to approval.",
+    "stats": {
+      "experience": "10+ Years Experience",
+      "clients": "500+ Satisfied Clients",
+      "success": "95% Success Rate"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch for a consultation",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "address": "Atasehir, Istanbul, Turkey",
+      "phone": "+90 505 438 3837",
+      "email": "info@workpermitturkey.com"
+    }
+  },
+  "footer": {
+    "description": "Professional work permit services for foreign nationals in Turkey",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
