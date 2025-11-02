@@ -70,7 +70,7 @@ const BottomNavbar = () => {
               to={path}
               data-bottom-nav-item
               className={({ isActive }) =>
-                `flex flex-col items-center justify-center gap-1 px-3 py-2 rounded-full transition-all duration-200 ${
+                `flex items-center justify-center p-3 rounded-full transition-all duration-200 ${
                   isActive
                     ? 'bg-primary/10 dark:bg-primary/20 text-primary active'
                     : 'text-foreground/60 hover:text-foreground hover:bg-accent/50'
@@ -80,14 +80,11 @@ const BottomNavbar = () => {
               aria-current={isActive ? 'page' : undefined}
             >
               {({ isActive }) => (
-                <>
-                  <Icon 
-                    className="h-5 w-5" 
-                    fill={isActive ? 'currentColor' : 'none'}
-                    strokeWidth={isActive ? 0 : 2}
-                  />
-                  <span className="text-[10px] font-medium">{translatedLabel}</span>
-                </>
+                <Icon 
+                  className="h-5 w-5" 
+                  fill={isActive ? 'currentColor' : 'none'}
+                  strokeWidth={isActive ? 0 : 2}
+                />
               )}
             </NavLink>
           );
