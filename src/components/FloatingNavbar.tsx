@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, Users, Briefcase, FileText, Mail, Moon, Sun, Menu, X } from 'lucide-react';
+import { Home, Users, Briefcase, FileText, Mail, Moon, Sun } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from 'next-themes';
 
@@ -10,7 +10,6 @@ const FloatingNavbar = () => {
   const { theme, setTheme } = useTheme();
   const location = useLocation();
   const [time, setTime] = useState(new Date());
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // Update clock every second
   useEffect(() => {
@@ -105,84 +104,8 @@ const FloatingNavbar = () => {
         </div>
       </header>
 
-      {/* Mobile Navbar */}
-      <header className="fixed top-0 left-0 right-0 z-50 md:hidden bg-background/95 backdrop-blur-md border-b border-border/50">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-16">
-            {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">W</span>
-              </div>
-              <span className="font-bold text-lg">WorkPermit</span>
-            </Link>
-
-            {/* Mobile Actions */}
-            <div className="flex items-center space-x-2">
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-              >
-                {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-              </Button>
-              
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              >
-                {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-              </Button>
-            </div>
-          </div>
-
-          {/* Mobile Menu Dropdown */}
-          {isMobileMenuOpen && (
-            <div className="py-4 border-t border-border/50 animate-fade-in">
-              <nav className="flex flex-col space-y-2">
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.path}
-                    to={link.path}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className={`flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
-                      location.pathname === link.path
-                        ? 'bg-primary/10 text-primary'
-                        : 'text-foreground/70 hover:bg-accent'
-                    }`}
-                  >
-                    <link.icon className="h-5 w-5" />
-                    <span>{link.label}</span>
-                  </Link>
-                ))}
-              </nav>
-              
-              <div className="flex items-center justify-between mt-4 pt-4 border-t border-border/50 px-4">
-                <div className="flex items-center space-x-2 text-sm text-foreground/70">
-                  <span>{i18n.language === 'en' ? '🇬🇧' : '🇹🇷'}</span>
-                  <span>Europe/Istanbul</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="font-mono text-sm text-foreground/70 tabular-nums">
-                    {formatTime(time)}
-                  </div>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={toggleLanguage}
-                  >
-                    {i18n.language === 'en' ? '🇹🇷 TR' : '🇬🇧 EN'}
-                  </Button>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-      </header>
-
       {/* Spacer for fixed navbar */}
-      <div className="h-20 md:h-24" />
+      <div className="hidden md:block h-24" />
     </>
   );
 };

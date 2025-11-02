@@ -44,9 +44,9 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">W</span>
+              <span className="text-primary-foreground font-bold text-xl">E</span>
             </div>
-            <span className="font-bold text-xl hidden sm:block">WorkPermit</span>
+            <span className="font-bold text-xl hidden sm:block">Ekol Danışmanlık</span>
           </Link>
 
           {/* Desktop Navigation */}

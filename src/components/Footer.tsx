@@ -14,9 +14,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">W</span>
+                <span className="text-primary-foreground font-bold text-xl">E</span>
               </div>
-              <span className="font-bold text-xl">WorkPermit</span>
+              <span className="font-bold text-xl">Ekol Danışmanlık</span>
             </div>
             <p className="text-sm text-muted-foreground">
               {t('footer.description')}
@@ -72,7 +72,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t text-center">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0 text-sm text-muted-foreground">
             <p>
-              © {currentYear} WorkPermit Turkey. {t('footer.rights')}.
+              © {currentYear} Ekol Danışmanlık. {t('footer.rights')}.
             </p>
             <div className="flex space-x-4">
               <Link to="#" className="hover:text-primary transition-colors">

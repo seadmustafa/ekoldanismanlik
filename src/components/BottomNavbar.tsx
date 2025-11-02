@@ -81,7 +81,7 @@ const BottomNavbar = () => {
             >
               {({ isActive }) => (
                 <Icon 
-                  className="h-5 w-5" 
+                  className="h-4 w-4" 
                   fill={isActive ? 'currentColor' : 'none'}
                   strokeWidth={isActive ? 0 : 2}
                 />
@@ -101,7 +101,7 @@ const BottomNavbar = () => {
           className="h-10 w-10 rounded-full hover:bg-accent/50 transition-all"
           aria-label={`Switch to ${i18n.language === 'en' ? 'Turkish' : 'English'}`}
         >
-          <Globe className="h-5 w-5" />
+          <Globe className="h-4 w-4" />
           <span className="sr-only">
             {i18n.language === 'en' ? 'TR' : 'EN'}
           </span>
@@ -116,9 +116,9 @@ const BottomNavbar = () => {
           aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
         >
           {theme === 'dark' ? (
-            <Sun className="h-5 w-5" />
+            <Sun className="h-4 w-4" />
           ) : (
-            <Moon className="h-5 w-5" />
+            <Moon className="h-4 w-4" />
           )}
           <span className="sr-only">Toggle theme</span>
         </Button>
