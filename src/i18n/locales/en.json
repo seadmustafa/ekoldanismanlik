@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
+    "permitTypes": "Permit Types",
     "contact": "Contact"
   },
   "hero": {
@@ -90,5 +91,57 @@
     "rights": "All rights reserved",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
+  },
+  "permitTypes": {
+    "title": "Work Permit Types in Turkey",
+    "subtitle": "Comprehensive guide to different types of work permits available for foreign nationals",
+    "fixedTerm": {
+      "title": "Fixed-Term Work Permit",
+      "definition": "Definition and Duration",
+      "definitionText": "This permit is issued to a foreigner whose application is positively evaluated, allowing them to work at a specific workplace or workplaces in the same line of business belonging to an employer, for a specific job, subject to being employed by an employer. In the initial application, it is issued for a maximum period of up to one year. The granted period must not exceed the duration of the work or service contract.",
+      "extension": "Extension",
+      "extensionText": "Fixed-term work permit can be extended if the application is made within the legal periods:",
+      "extensionPoints": [
+        "In the first extension application for the same employer, a work permit is granted for a maximum period of two years.",
+        "In subsequent extension applications, a work permit can be granted for up to three years.",
+        "Applications for working with a different employer are evaluated within the scope of the initial application."
+      ]
+    },
+    "indefinite": {
+      "title": "Indefinite Work Permit",
+      "requirements": "Application Requirements",
+      "requirementsText": "Foreigners with long-term residence permit in Turkey or at least eight years of legal work permit may apply for indefinite work permit. However, meeting the application requirements does not guarantee an absolute right to the foreigner.",
+      "rights": "Rights Provided",
+      "rightsText": "A foreigner with an indefinite work permit benefits from all rights provided by long-term residence permit. Furthermore, with the exception of provisions in special laws and subject to the preservation of acquired rights related to social security and the use of these rights in accordance with relevant legislation, they benefit from rights granted to Turkish citizens.",
+      "restrictions": "Restrictions",
+      "restrictionsText": "A foreigner with an indefinite work permit does not have the right to vote, be elected, or enter public service, nor does they have the obligation to perform military service.",
+      "renewal": "Renewal",
+      "renewalText": "Indefinite work permit documents are renewed at the end of every five years from the work permit start date. The document renewal application must be made within six months before the expiration of the five-year period and in any case before the expiration."
+    },
+    "independent": {
+      "title": "Independent Work Permit",
+      "definition": "Definition and Duration",
+      "definitionText": "This permit is issued in the name of a foreigner without being tied to an employer and grants the foreigner the right to work in Turkey on their own account and behalf. Independent work permit is issued as a fixed-term permit.",
+      "criteria": "Evaluation Criteria",
+      "criteriaText": "While evaluating the independent work permit application in line with international labor policy, the following aspects of the foreigner are taken into account:",
+      "criteriaPoints": [
+        "Education level and professional experience",
+        "Contribution to science and technology",
+        "Impact of their activities or investment in Turkey on the country's economy and employment",
+        "Capital share if they are a foreign company partner",
+        "Other matters to be determined by the Ministry in line with the recommendations of the International Labor Advisory Board"
+      ]
+    },
+    "turquoise": {
+      "title": "Turquoise Card",
+      "conditions": "Issuance Conditions",
+      "conditionsText": "Turquoise Card is issued to foreigners whose application is deemed appropriate in line with international labor policy. In the eligibility assessment, criteria similar to those for independent work permit are used: education level, professional experience, contribution to science and technology, and the impact of their activities or investment in Turkey on the country's economy and employment are taken into account.",
+      "rights": "Rights Provided",
+      "rightsText": "A foreigner holding a Turquoise Card benefits from the rights provided by the indefinite work permit regulated in the Law.",
+      "relatives": "Status of Relatives",
+      "relativesText": "The spouse and dependent children of the foreigner holding a Turquoise Card are issued a document that shows they are relatives of the Turquoise Card holder and serves in place of a residence permit.",
+      "exclusions": "Exclusions",
+      "exclusionsText": "Foreigners provided with temporary protection are excluded from the Turquoise Card application."
+    }
   }
 }

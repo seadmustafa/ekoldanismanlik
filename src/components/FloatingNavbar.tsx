@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, Users, Briefcase, Mail, Moon, Sun, Menu, X } from 'lucide-react';
+import { Home, Users, Briefcase, FileText, Mail, Moon, Sun, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from 'next-themes';
 
@@ -28,6 +28,7 @@ const FloatingNavbar = () => {
     { path: '/', label: t('nav.home'), icon: Home },
     { path: '/about', label: t('nav.about'), icon: Users },
     { path: '/services', label: t('nav.services'), icon: Briefcase },
+    { path: '/permit-types', label: t('nav.permitTypes'), icon: FileText },
     { path: '/contact', label: t('nav.contact'), icon: Mail },
   ];
 

@@ -3,6 +3,7 @@
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
     "services": "Hizmetler",
+    "permitTypes": "İzin Türleri",
     "contact": "İletişim"
   },
   "hero": {
@@ -90,5 +91,57 @@
     "rights": "Tüm hakları saklıdır",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları"
+  },
+  "permitTypes": {
+    "title": "Türkiye'de Çalışma İzni Türleri",
+    "subtitle": "Yabancı vatandaşlar için mevcut farklı çalışma izni türlerine ilişkin kapsamlı rehber",
+    "fixedTerm": {
+      "title": "Süreli Çalışma İzni",
+      "definition": "Tanım ve Süre",
+      "definitionText": "Bu izin, başvurusu olumlu değerlendirilen yabancıya, belirli bir işyerinde veya işverene ait aynı işkolundaki işyerlerinde belirli bir işte, bir işverene bağlı olarak çalışmak şartıyla verilen izindir. İlk başvuruda en çok bir yıla kadar geçerli süreyle düzenlenir. Verilen süre, iş veya hizmet sözleşmesinin süresini aşmamalıdır.",
+      "extension": "Uzatma",
+      "extensionText": "Yasal süreler içinde başvuru yapılması halinde süreli çalışma izni uzatılabilir:",
+      "extensionPoints": [
+        "Aynı işverene bağlı olarak yapılan ilk uzatma başvurusunda en çok iki yıl süreyle çalışma izni verilir.",
+        "Sonraki uzatma başvurularında ise en çok üç yıla kadar çalışma izni verilebilir.",
+        "Farklı bir işveren yanında çalışmak üzere yapılan başvurular ise ilk başvuru kapsamında değerlendirilir."
+      ]
+    },
+    "indefinite": {
+      "title": "Süresiz Çalışma İzni",
+      "requirements": "Başvuru Şartları",
+      "requirementsText": "Türkiye'de uzun dönem ikamet izni olan veya en az sekiz yıl kanuni çalışma izni olan yabancılar süresiz çalışma iznine başvurabilir. Ancak, yabancının başvuru şartlarını taşıması, kendisine mutlak hak sağlamaz.",
+      "rights": "Sağladığı Haklar",
+      "rightsText": "Süresiz çalışma izni olan yabancı, uzun dönem ikamet izninin sağladığı tüm haklardan yararlanır. Ayrıca, özel kanunlardaki düzenlemeler hariç tutulmakla birlikte, sosyal güvenliğe ilişkin kazanılmış hakları saklı kalmak ve bu hakların kullanımında ilgili mevzuat hükümlerine tabi olmak şartıyla, Türk vatandaşlarına tanınan haklardan yararlanır.",
+      "restrictions": "Kısıtlamalar",
+      "restrictionsText": "Süresiz çalışma izni olan yabancının; seçme, seçilme ve kamu görevlerine girme hakkı ile askerlik hizmeti yapma yükümlülüğü yoktur.",
+      "renewal": "Yenileme",
+      "renewalText": "Süresiz çalışma izni belgeleri, çalışma izni başlangıç tarihi itibarıyla her beş yılın sonunda yenilenir. Belge yenileme başvurusunun, beş yıllık sürenin dolmasından önceki altı ay içerisinde ve her halükarda süre dolmadan yapılması gerekir."
+    },
+    "independent": {
+      "title": "Bağımsız Çalışma İzni",
+      "definition": "Tanım ve Süre",
+      "definitionText": "Bu izin, bir işverene bağlı olmaksızın yabancı adına düzenlenir ve yabancıya Türkiye'de kendi ad ve hesabına çalışma hakkı verir. Bağımsız çalışma izni süreli olarak düzenlenir.",
+      "criteria": "Değerlendirme Kriterleri",
+      "criteriaText": "Bağımsız çalışma izni başvurusu, uluslararası işgücü politikası doğrultusunda değerlendirilirken yabancının şu hususları dikkate alınır:",
+      "criteriaPoints": [
+        "Eğitim düzeyi ve mesleki deneyimi",
+        "Bilim ve teknolojiye katkısı",
+        "Türkiye'deki faaliyetinin veya yatırımının ülke ekonomisine ve istihdama etkisi",
+        "Yabancı şirket ortağı ise sermaye payı",
+        "Uluslararası İşgücü Danışma Kurulu önerileri doğrultusunda Bakanlıkça belirlenecek diğer hususlar"
+      ]
+    },
+    "turquoise": {
+      "title": "Turkuaz Kart",
+      "conditions": "Verilme Şartları",
+      "conditionsText": "Turkuaz Kart, uluslararası işgücü politikası doğrultusunda başvurusu uygun görülen yabancılara verilir. Uygunluk değerlendirmesinde, bağımsız çalışma iznindekine benzer kriterler kullanılır: eğitim düzeyi, mesleki deneyim, bilim ve teknolojiye katkı, Türkiye'deki faaliyetinin veya yatırımının ülke ekonomisine ve istihdama etkisi dikkate alınır.",
+      "rights": "Sağladığı Haklar",
+      "rightsText": "Turkuaz Kart sahibi yabancı, Kanun'da düzenlenen süresiz çalışma izninin sağladığı haklardan yararlanır.",
+      "relatives": "Yakınların Durumu",
+      "relativesText": "Turkuaz Kart sahibi yabancının eşine ve bakmakla yükümlü olduğu çocuklarına, Turkuaz Kart sahibi yakını olduğunu gösteren ve ikamet izni yerine geçen bir belge verilir.",
+      "exclusions": "Kapsam Dışı Olanlar",
+      "exclusionsText": "Geçici koruma sağlanan yabancılar, Turkuaz Kart uygulamasının dışındadır."
+    }
   }
 }

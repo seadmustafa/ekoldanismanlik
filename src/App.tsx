@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
+import PermitTypes from "./pages/PermitTypes";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import "./i18n/config";
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/permit-types" element={<PermitTypes />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
