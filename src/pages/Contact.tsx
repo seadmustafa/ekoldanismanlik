@@ -53,7 +53,7 @@ const Contact = () => {
       icon: Mail,
       label: t('contact.info.email'),
       value: t('contact.info.email'),
-      link: 'mailto:info@workpermitturkey.com',
+      link: 'mailto:ekoldanismanlik06@gmail.com',
     },
   ];
 
@@ -156,7 +156,7 @@ const Contact = () => {
               <Card>
                 <CardContent className="p-0">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96394.19165134968!2d29.03589935!3d40.9829891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac82ea1481a21%3A0x9448882470dacdcc!2sAta%C5%9Fehir%2C%20Istanbul%2C%20Turkey!5e0!3m2!1sen!2s!4v1234567890"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.5!2d32.8!3d39.79!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQ3JzI0LjAiTiAzMsKwNDgnMDAuMCJF!5e0!3m2!1sen!2s!4v1234567890&q=K%C4%B1z%C4%B1lca%C5%9Far+K%C3%BCme+Evleri+Atabilge+No:420D+Kap%C4%B1+No:3+G%C3%B6lba%C5%9F%C4%B1+Ankara+T%C3%BCrkiye"
                     width="100%"
                     height="300"
                     style={{ border: 0 }}
