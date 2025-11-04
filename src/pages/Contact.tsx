@@ -156,7 +156,7 @@ const Contact = () => {
               <Card>
                 <CardContent className="p-0">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.5!2d32.8!3d39.79!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQ3JzI0LjAiTiAzMsKwNDgnMDAuMCJF!5e0!3m2!1sen!2s!4v1234567890&q=K%C4%B1z%C4%B1lca%C5%9Far+K%C3%BCme+Evleri+Atabilge+No:420D+Kap%C4%B1+No:3+G%C3%B6lba%C5%9F%C4%B1+Ankara+T%C3%BCrkiye"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.38502250069837!2d32.68805910666039!3d39.87064576927518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f57ca6414bf%3A0xce957d6724ec2c1d!2sAtabilge%20%C4%B0n%C5%9Faat%20Enerji%20Yat%C4%B1r%C4%B1m%20Sanayi%20ve%20Ticaret%20Anonim%20%C5%9Eirketi!5e0!3m2!1str!2str!4v1762234465947!5m2!1str!2str"
                     width="100%"
                     height="300"
                     style={{ border: 0 }}
